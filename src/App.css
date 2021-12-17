@@ -1,0 +1,36 @@
+.navel {
+  float: left;
+  margin: 10px;
+}
+
+body {
+  color: #222;
+  background: #fff;
+  font: 100% system-ui;
+}
+a {
+  color: #000000;
+}
+
+.table-head {
+  text-align: left;
+  background-color: #b9cdf2;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #eee;
+    background: #121212;
+  }
+
+  body a {
+    color: #ffffff;
+  }
+  input {
+    background-color: #121212;
+    color: #fff;
+  }
+  .table-head {
+    background-color: #365693;
+  }
+}
